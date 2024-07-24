@@ -25,7 +25,7 @@ namespace OpenAI
         public UnityEvent OnReplyReceived;
 
         private string response;
-        private bool isDone = true;
+        // private bool isDone = true;
         private RectTransform messageRect;
 
         private float height;

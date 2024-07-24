@@ -7,8 +7,10 @@ using System.Net.Http.Headers;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class TextToSpeech : MonoBehaviour
+namespace OpenAI
 {
+public class TextToSpeech : MonoBehaviour
+  {
     [SerializeField] private AudioSource audioSource;
     [SerializeField, Tooltip(("Your OpenAI API key. If you use a restricted key, please ensure that it has permissions for /v1/audio."))] private string openAiApiKey;
 
@@ -122,4 +124,5 @@ public class TextToSpeech : MonoBehaviour
     {
         this.openAiApiKey = openAiApiKey;
     }
+  }
 }

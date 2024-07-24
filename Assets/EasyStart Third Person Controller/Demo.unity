@@ -3534,7 +3534,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494063615}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &494063618
 Camera:
   m_ObjectHideFlags: 0
@@ -5401,7 +5401,7 @@ MonoBehaviour:
   npcInfo: {fileID: 2804731810207923963}
   worldInfo: {fileID: 1024496281}
   npcDialog: {fileID: 626059794}
-  textToSpeech: {fileID: 2804731810207923962}
+  textToSpeech: {fileID: 2804731810207923966}
   OnReplyReceived:
     m_PersistentCalls:
       m_Calls:
@@ -11101,20 +11101,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2804731810207923962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2147134999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8380814a8f3ba464788d549f293b918b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  openAiApiKey: 
 --- !u!114 &2804731810207923963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11131,6 +11117,20 @@ MonoBehaviour:
   npcOccupation: 2
   npcTalents: 3
   npcPersonality: 3
+--- !u!114 &2804731810207923966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147134999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8380814a8f3ba464788d549f293b918b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 2804731810207923959}
+  openAiApiKey: sk-proj-nby6YNd37EGaC4osf560T3BlbkFJbV9kuIlAwWBJKTvs6SMO
 --- !u!1001 &4112580731728337855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11206,10 +11206,10 @@ PrefabInstance:
       addedObject: {fileID: 2804731810207923957}
     - targetCorrespondingSourceObject: {fileID: 6210016512046195834, guid: 31b3a0c7bd7e845f498ba18007d564ef, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2804731810207923962}
+      addedObject: {fileID: 2804731810207923963}
     - targetCorrespondingSourceObject: {fileID: 6210016512046195834, guid: 31b3a0c7bd7e845f498ba18007d564ef, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2804731810207923963}
+      addedObject: {fileID: 2804731810207923966}
   m_SourcePrefab: {fileID: 100100000, guid: 31b3a0c7bd7e845f498ba18007d564ef, type: 3}
 --- !u!137 &4112580731728337862 stripped
 SkinnedMeshRenderer:
