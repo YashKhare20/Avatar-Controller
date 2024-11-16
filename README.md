@@ -84,7 +84,7 @@ This project leverages Extended Reality (XR) and Large Language Models (LLMs) to
 ## Contributors
 - **Yash Khare** 
 - **Mohan Bhosale**
-- **Page Peterson**
+- **Page Patterson**
 
 ---
 
