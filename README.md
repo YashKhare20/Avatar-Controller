@@ -12,6 +12,10 @@ This project leverages Extended Reality (XR) and Large Language Models (LLMs) to
   - 35% reduction in manufacturing downtime.
   - 92% accuracy in resolving complex industrial equipment malfunctions.
 
+![Avatar Interaction Example](file-bSFV1HBooDI7bAHY69SyYRp6)
+
+*Figure 1: Interaction between the user and the LLM-driven avatar in an XR environment.*
+
 ---
 
 ## Technologies Used
@@ -36,6 +40,10 @@ This project leverages Extended Reality (XR) and Large Language Models (LLMs) to
 - **Speech-to-Text Integration**: Enables users to communicate naturally with the avatars through voice.
 - **Chat Completion API**: Processes input queries and generates precise, actionable insights.
 - **Text-to-Speech Integration**: Avatars deliver responses in an intuitive auditory format.
+
+![Speech-to-Text Pipeline](file-gbcIpK6cN0l6ZAlFpHa5XcU1)
+
+*Figure 2: Workflow showing the speech-to-text and chat completion pipeline for seamless user-avatar interaction.*
 
 ### 3. High-Accuracy Troubleshooting
 - Reduces miscommunication and troubleshooting errors with a 92% success rate in resolving complex equipment malfunctions.
