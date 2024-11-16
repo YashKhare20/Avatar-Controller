@@ -61,7 +61,7 @@ This project leverages Extended Reality (XR) and Large Language Models (LLMs) to
 ### Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/Extended-Reality-Remote-Assistance
+   git clone [https://github.com/Extended-Reality-Remote-Assistance](https://github.com/YashKhare20/Avatar-Controller/)
    ```
 2. Open the project in Unity3D.
 3. Configure API keys in the project settings file.
